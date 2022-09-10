@@ -1,0 +1,114 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .main1 {
+        
+        @include estilos_section (purple, black) ;
+        @extend %flexxcolumn;
+        
+        .main_carousel {
+           margin-left: 180px,
+           
+        }
+        .p__section{
+            font-size: 22px;
+            margin-top: 25px;
+
+        }
+        .d-block {
+            border-radius: 20%;
+            padding-top: 20px;
+        }
+    }
+    
+    .main2 {
+        @include estilos_section (purple, white) ;
+        @extend %flexxcolumn;
+    }
+    .main3 {
+        @include estilos_section (purple, white) ;
+        @extend %flexrow
+    }
+}
+/*servicios */
+
+.servicios-div {
+    @extend %flexcolumn;
+    .img-servicios {
+        width: 110px;
+        height: 110px;
+        border-radius: 25%;
+       
+    }
+}
+
+
+/* trabaja con nosotros*/
+
+.work_section { 
+    @extend %flexcolumn;
+
+    .main__section__work {
+
+    }
+  
+    .div__section { 
+      @extend %flexrow
+    }
+    
+}
+
+/*¨contacto */
+.section-bg-contacto { background-image: url(https://img.freepik.com/vector-gratis/fondo-bolas-brillantes-que-fluye-realista-colorido_52683-24419.jpg?w=740&t=st=1662832666~exp=1662833266~hmac=ffe22f2594179dc56b8319420d8ba10ca151483e5684e438815b0c9de5d7554f);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 26px;
+    font-weight: bolder;
+   
+
+    
+.ps-5 { 
+    @extend %flexcolumn;
+    border: 03px solid black;
+    margin-top: 10px;
+    @extend %estilos-contacto-ps-5;
+
+    width: 500px;
+
+
+    @include estilos_section (purple, white) ;
+  }
+.ps-5 { 
+    @include estilos_section (purple, white) ;
+    border: 03px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+}
+
+
+/*blog */
+
+section {
+    background-image: url(https://img.freepik.com/fotos-premium/craneo-humano-blanco-gafas-color-rosa-cerca_154317-516.jpg?w=740);
+    .main1-blog{
+          color: black;
+          @extend %flexcolumn;
+          border: 03px solid white;
+
+    }
+}
+ 
+
+/* nosotros */
+
+.estilos-section-nosotros {
+
+@extend %estilos-section-nosotros;
+}
+
+

@@ -1,0 +1,14 @@
+
+
+
+
+.div__header { 
+    @extend %flexrow;
+    background-color: map-get($estilero, Back-ground-oscuro );
+    color: map-get($estilero, colorTextoClaro );
+
+      .logo {
+        @extend %estilos-logos
+      }
+}
+

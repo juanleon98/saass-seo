@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: map-get($estilero,colorSecundario );
+
+     ul { 
+         display: flex;
+         flex-direction: row;}
+         list-style-type: none;
+         justify-content: center;
+          li {  
+
+            
+            list-style-type: none;
+            
+
+                a { 
+                    @extend %botonbase;
+
+                  
+                     }
+
+                }
+
+          }
+
+     
+
+
+

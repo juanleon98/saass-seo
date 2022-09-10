@@ -1,0 +1,52 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*#grilla {
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 300px 120px 1000px 700px;
+    grid-template-areas: 
+       "header header header"
+       "nav nav nav"
+       "section  section section"
+       "footer footer footer"
+    ;
+    height: 1200px;
+    
+}
+header { 
+    grid-area: header;
+}
+nav { 
+    grid-area: nav;
+    background-color: rgb(6, 6, 2)}
+section { 
+    grid-area: section;
+   }
+   
+
+
+footer { 
+    grid-area: footer;
+    background-color: beige;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+    #grilla   {
+   
+       grid-template-columns: 250px 400px;
+       grid-template-rows: 170px 222px 70px 130px;
+       grid-template-areas:  
+    "header header header"
+     "nav section section "
+     "nav secction section"
+     "nav section section "
+    "footer footer footer";
+    }
+
+
+} */

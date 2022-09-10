@@ -1,0 +1,224 @@
+@charset "UTF-8";
+nav li a {
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15%;
+  background-color: gray;
+  color: white;
+}
+
+.work_section .div__section, section .main3, .div__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section .main1-blog, .section-bg-contacto .ps-5, .work_section, .servicios-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div__header .logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+section .main2, section .main1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-bg-contacto .ps-5 {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.estilos-section-nosotros {
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+/*#grilla {
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 300px 120px 1000px 700px;
+    grid-template-areas: 
+       "header header header"
+       "nav nav nav"
+       "section  section section"
+       "footer footer footer"
+    ;
+    height: 1200px;
+
+}
+header { 
+    grid-area: header;
+}
+nav { 
+    grid-area: nav;
+    background-color: rgb(6, 6, 2)}
+section { 
+    grid-area: section;
+   }
+
+
+
+footer { 
+    grid-area: footer;
+    background-color: beige;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+    #grilla   {
+
+       grid-template-columns: 250px 400px;
+       grid-template-rows: 170px 222px 70px 130px;
+       grid-template-areas:  
+    "header header header"
+     "nav section section "
+     "nav secction section"
+     "nav section section "
+    "footer footer footer";
+    }
+
+
+} */
+.div__header {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 253, 253);
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(65, 62, 62);
+  list-style-type: none;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav li {
+  list-style-type: none;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .main1 {
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-verano-agua-mar_64049-160.jpg?w=740&t=st=1662832800~exp=1662833400~hmac=5fd803c8d12acbc321892b11ada67057db4c6aabcea5c2e5aeca6765647e85ee);
+  color: black;
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section .main1 .main_carousel {
+  margin-left: 180px;
+}
+section .main1 .p__section {
+  font-size: 22px;
+  margin-top: 25px;
+}
+section .main1 .d-block {
+  border-radius: 20%;
+  padding-top: 20px;
+}
+section .main2 {
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-verano-agua-mar_64049-160.jpg?w=740&t=st=1662832800~exp=1662833400~hmac=5fd803c8d12acbc321892b11ada67057db4c6aabcea5c2e5aeca6765647e85ee);
+  color: white;
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section .main3 {
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-verano-agua-mar_64049-160.jpg?w=740&t=st=1662832800~exp=1662833400~hmac=5fd803c8d12acbc321892b11ada67057db4c6aabcea5c2e5aeca6765647e85ee);
+  color: white;
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*servicios */
+.servicios-div .img-servicios {
+  width: 110px;
+  height: 110px;
+  border-radius: 25%;
+}
+
+/* trabaja con nosotros*/
+/*¨contacto */
+.section-bg-contacto {
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-bolas-brillantes-que-fluye-realista-colorido_52683-24419.jpg?w=740&t=st=1662832666~exp=1662833266~hmac=ffe22f2594179dc56b8319420d8ba10ca151483e5684e438815b0c9de5d7554f);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 26px;
+  font-weight: bolder;
+}
+.section-bg-contacto .ps-5 {
+  border: 3px solid black;
+  margin-top: 10px;
+  width: 500px;
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-verano-agua-mar_64049-160.jpg?w=740&t=st=1662832800~exp=1662833400~hmac=5fd803c8d12acbc321892b11ada67057db4c6aabcea5c2e5aeca6765647e85ee);
+  color: white;
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-bg-contacto .ps-5 {
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-verano-agua-mar_64049-160.jpg?w=740&t=st=1662832800~exp=1662833400~hmac=5fd803c8d12acbc321892b11ada67057db4c6aabcea5c2e5aeca6765647e85ee);
+  color: white;
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*blog */
+section {
+  background-image: url(https://img.freepik.com/fotos-premium/craneo-humano-blanco-gafas-color-rosa-cerca_154317-516.jpg?w=740);
+}
+section .main1-blog {
+  color: black;
+  border: 3px solid white;
+}
+
+/* nosotros */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+footer .footer__div1 ul {
+  list-style-type: none;
+}
+footer .footer__div3 .logo__redes {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

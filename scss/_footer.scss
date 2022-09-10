@@ -1,0 +1,15 @@
+footer { 
+    @include display ($direction:row, $justify:center, $align:center, $back-ground-2:black, $text-color:white) ;
+      .footer__div1 { 
+         ul{
+        list-style-type: none;
+      }
+}
+.footer__div3 {
+    .logo__redes { 
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin-right: 50px;
+    }
+}}
